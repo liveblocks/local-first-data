@@ -1,15 +1,14 @@
-# SuperSync
+# Liveblocks
 
-SuperSync is a cool way to sync your data.
+[Liveblocks](https://liveblocks.io) provides customizable pre-built features for human and AI collaboration, used to make your product multiplayer, engaging, and AI‑ready. All without derailing your roadmap.
 
-## Features
+## Liveblocks Yjs
 
-- **SuperSync**: Sync your data with ease.
-- **Local-first**: Your data is stored locally, ensuring privacy and security.
-- **Cross-platform**: Works on all major platforms.
-- **Open-source**: The code is available for anyone to use and contribute to.
-- **Community-driven**: Join our community and help us improve the project.
+[Liveblocks Yjs](https://liveblocks.io/sync-datastore/yjs) is a realtime sync engine designed for building collaborative text editors such as Notion and Google Docs. Liveblocks permanently stores Yjs data in each room, handling scaling and maintenance for you.
 
-## More info
+### Links
 
-...
+- [Get started](https://liveblocks.io/docs/get-started/text-editor)
+- [API reference](https://liveblocks.io/docs/api-reference/liveblocks-yjs)
+- [Examples](https://liveblocks.io/examples)
+- [More info](https://liveblocks.io/docs/platform/sync-datastore/liveblocks-yjs)
