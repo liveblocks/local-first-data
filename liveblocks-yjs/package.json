@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@localfirstfm/landscape-schema": "0.0.2"
+  }
+}
