@@ -32,7 +32,8 @@ export const data = LandscapeSchema.make({
       data: ['Cloudflare Durable Object Storage', 'SQLite']
     },
     DataModelParadigm: {
-      data: 'Document'
+      data: 'Document',
+      comment: 'Each room is a digital space where people colalborate, and it corresponds with a document.'
     },
     SchemaManagement: {
       data: ['Schema definition', 'Schema validation']
@@ -44,7 +45,7 @@ export const data = LandscapeSchema.make({
   },
   ClientSideData: {
     QueryAPI: {
-      data: ['Signals-based Reactivity', 'Reactive queries'],
+      data: ['Signals-based reactivity', 'Reactive queries'],
       comment: 'JS: via subscription. React: via selector hooks, mutation callbacks. Automatically converts live data structures to JSON for easy UI. Hooks update automatically on changes. Can retrieve deep into the data structure without causing unnecessary renders.'
     },
     LocalRefreshLatency: {
@@ -73,7 +74,8 @@ export const data = LandscapeSchema.make({
       comment: 'Full cached writes, stored in-memory, server will resolve conflict.'
     },
     DataSize: {
-      data: 'limited by device capabilities'
+      data: 'Limited by memory',
+      comment: 'It depends on the in memory size of the Storage document.'
     }
   },
   SynchronizationStrategy: {
@@ -96,7 +98,7 @@ export const data = LandscapeSchema.make({
   },
   AuthIdentity: {
     Encryption: {
-      data: 'transport-level (wss:// or https://)'
+      data: 'Transport-level (wss:// or https://)'
     },
     AuthenticationMethod: {
       data: ['JWT tokens', 'Public key']
@@ -108,7 +110,8 @@ export const data = LandscapeSchema.make({
   },
   UIRelated: {
     Components: {
-      data: ['Comments/Threads', 'Notifications', 'AI Copilots', 'Presence']
+      data: ['Comments/Threads', 'Notifications', 'AI Copilots', 'Presence'],
+      comment: 'All Liveblocks products integrate into each other. Learn more about the other products on [liveblocks.io](https://liveblocks.io).'
     }
   },
   DevelopmentWorkflowsDX: {
@@ -121,7 +124,7 @@ export const data = LandscapeSchema.make({
     },
     TypeSupport: {
       data: 'Full type support',
-      comment: 'Via `liveblocks.config.ts`.'
+      comment: 'Via [`liveblocks.config.ts`](https://liveblocks.io/docs/api-reference/liveblocks-react#TypeScript).'
     }
   }
 })

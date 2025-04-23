@@ -32,7 +32,8 @@ export const data = LandscapeSchema.make({
       data: ['Cloudflare Durable Object Storage', 'IndexedDB']
     },
     DataModelParadigm: {
-      data: 'Document'
+      data: 'Document',
+      comment: 'Each room is a digital space where people colalborate, and it corresponds with a document.'
     },
     SchemaManagement: {
       data: ['None']
@@ -108,7 +109,7 @@ export const data = LandscapeSchema.make({
     },
     Components: {
       data: ['Comments/Threads', 'Notifications', 'AI Copilots', 'Yjs plugins', 'Presence'],
-      comment: 'Presence support via yjs-awareness.'
+      comment: 'All Liveblocks products integrate into each other. Learn more about the other products on [liveblocks.io](https://liveblocks.io).'
     }
   },
   DevelopmentWorkflowsDX: {
