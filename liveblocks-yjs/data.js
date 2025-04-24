@@ -8,6 +8,8 @@ export const data = LandscapeSchema.make({
   Website: 'https://liveblocks.io/sync-datastore/yjs',
   License: 'Proprietary',
   Deployment: ['Hosted'],
+  MaturityLevel: 'Production-ready',
+  InitialReleaseDate: new Date('2023-09-05'),
   AppTarget: {
     Platform: {
       data: ['Browser', 'Node']

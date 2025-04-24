@@ -8,6 +8,8 @@ export const data = LandscapeSchema.make({
   Website: 'https://liveblocks.io/sync-datastore/storage',
   License: 'Proprietary',
   Deployment: ['Hosted'],
+  MaturityLevel: 'Production-ready',
+  InitialReleaseDate: new Date('2022-03-16'),
   AppTarget: {
     Platform: {
       data: ['Browser', 'Node']
